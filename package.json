@@ -1,24 +1,15 @@
 {
-  "name": "advanced-tools-homework-challenge",
+  "name": "parcel-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Parcel Sandbox",
   "main": "index.html",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "dependencies": {},
   "devDependencies": {
-    "serve": "^11.2.0"
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
   }
 }
