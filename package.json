@@ -1,24 +1,29 @@
 {
-  "name": "advanced-tools-homework-challenge",
+  "name": "my-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "My project description",
+  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "node index.js",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf dist",
+    "compile": "babel src -d dist",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [],
-  "author": "Ives van Hoorne",
+  "keywords": [
+    "my",
+    "project"
+  ],
+  "author": "Your Name",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.7"
   }
 }
