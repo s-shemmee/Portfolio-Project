@@ -1,19 +1,19 @@
 {
-   "name": "Potfolio-Project",
-   "description": "My portfolio project",
-   "version": "1.0.0",
-   "main": "index.html",
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/shemmee/Potfolio-Project.git"
-   },
-   "keywords": [
-      "portfolio",
-      "project"
-   ],
-   "author": "shemmee",
-   "license": "MIT",
-   "dependencies": {
-      "example": "^1.0.0"
-   }
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio project",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shemmee/Potfolio-Project.git"
+  },
+  "scripts": {
+    "build": "echo 'build script placeholder'"
+  },
+  "homepage": "https://your-portfolio-url.com/",
+  "keywords": [
+    "portfolio",
+    "project"
+  ]
 }
