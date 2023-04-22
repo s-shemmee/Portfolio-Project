@@ -1,20 +1,24 @@
 {
-  "name": "my-project",
+  "name": "advanced-bootstrap-homework-challenge",
   "version": "1.0.0",
-  "description": "My project description",
-  "main": "index.js",
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -rf dist",
-    "compile": "babel src -d dist"
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
   },
-  "dependencies": {
-    "jquery": "^3.6.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
   },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "parcel-bundler": "^1.12.5"
+    "serve": "^11.2.0"
   }
 }
