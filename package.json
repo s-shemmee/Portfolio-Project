@@ -1,19 +1,24 @@
 {
-  "name": "my-portfolio",
+  "name": "advance-tools-homework-solution",
   "version": "1.0.0",
-  "description": "My portfolio project",
-  "author": "Your Name",
-  "license": "MIT",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shemmee/Potfolio-Project.git"
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
   },
-  "scripts": {
-    "build": "echo 'build script placeholder'"
+  "keywords": [],
+  "author": "shemmmee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
   },
-  "homepage": "https://your-portfolio-url.com/",
-  "keywords": [
-    "portfolio",
-    "project"
-  ]
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
 }
