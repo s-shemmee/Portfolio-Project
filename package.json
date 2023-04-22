@@ -1,1 +1,8 @@
-"build": "mkdir dist && cp index.html about.html style.css readme.md images/* dist"
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "My project description",
+  "scripts": {
+    "build": "mkdir dist && cp index.html about.html style.css readme.md images/* dist"
+  }
+}
