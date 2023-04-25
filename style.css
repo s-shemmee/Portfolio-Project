@@ -87,21 +87,53 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 576px) {
+/* Media Queries */
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  body {
+    margin-top: 80px;
+  }
+
   h1 {
     font-size: 48px;
-    line-height: 1.5;
   }
+
   h2 {
     font-size: 32px;
-    text-align: center;
   }
-  p {
-    text-align: center;
+
+  h3 {
+    font-size: 18px;
   }
-  .project-link {
+
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .navigation-links a {
+    margin: 10px;
+  }
+
+  .primary-link {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .secondary-link {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .launch{
     display: block;
+    width: 100%;
     text-align: center;
-    margin: 0 20px;
   }
 }
