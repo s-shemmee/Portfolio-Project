@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "My project description",
   "scripts": {
-    "build": "mkdir dist && cp index.html about.html README.md dist && cp -R src/ dist && cp -R images/ dist"
+    "build": "mkdir dist && cp index.html about.html work.html README.md dist && cp -R src/ dist && cp -R images/ dist"
   }
 }
